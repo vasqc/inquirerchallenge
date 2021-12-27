@@ -34,12 +34,23 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   //Table of Contents
-  * [Installation](#installation)
+  * [Name](#Name)
+    * Owner of Repository
+    ${data.name}
+  
+  * [Project](#Project)
+    * Name of Project:
+    ${data.title}
+
+  * [Description](#description)
+    ${data.description}
+
   * [Usage](#usage)
-  * [Contributing](#constributing)
-  * [Tests](#tests)
-  ## Tests
-To run tests, run the following command:
+    ${data.usage}
+
+  * [Contributing](#contributing)
+    ${data.contributing}
+  
   * [Questions](#questions)
   ## Questions
 If you have any questions about the repo, open an issue or contact me directly at ${data.email

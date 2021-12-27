@@ -1,1 +1,3 @@
-# inquirerchallenge
+This a Node command line program, that takes the information asked by the downloaded "inquirer program" and produces a Readme.MD file from just the user data.
+
+Given then the correct information is inputted, it will catagorize the information for easy finding, through bullet points and a table of contents. At the bottom of the Readme.md file, my email is provided and link to my github repo is also available for further communication.
